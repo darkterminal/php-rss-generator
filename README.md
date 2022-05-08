@@ -11,7 +11,7 @@
 You can install via Composer.
 
 ```
-composer require darkterminal/php-rss-generator
+composer require rssgen/php-rss-generator
 ```
 
 ## RSS Feed Implementation:
@@ -39,24 +39,26 @@ $item
 echo $feed;
 ```
 
-Output:
+<details>
+	<summary>Output</summary>
 
 ```xml
 <?xml version="1.0"?>
 <rss version="2.0">
-  <channel>
-    <title>Programming</title>
-    <link>http://bhaktaraz.com.np/?cat=2</link>
-    <description>Programming with php</description>
-    <item>
-      <title>CACHING DATA IN SYMFONY2</title>
-      <link>http://bhaktaraz.com.np/?p=194</link>
-      <description>It is not too easy to enhance the performance of your application. In Symfony2 you could get benefit from caching.</description>
-      <enclosure url="http://bhaktaraz.com.np/wp-content/uploads/2014/08/bhakta-672x372.jpg" type="audio/mpeg" length="4889"/>
-    </item>
-  </channel>
+	<channel>
+		<title>Programming</title>
+		<link>http://bhaktaraz.com.np/?cat=2</link>
+		<description>Programming with php</description>
+		<item>
+		<title>CACHING DATA IN SYMFONY2</title>
+		<link>http://bhaktaraz.com.np/?p=194</link>
+		<description>It is not too easy to enhance the performance of your application. In Symfony2 you could get benefit from caching.</description>
+		<enclosure url="http://bhaktaraz.com.np/wp-content/uploads/2014/08/bhakta-672x372.jpg" type="audio/mpeg" length="4889"/>
+		</item>
+	</channel>
 </rss>
 ```
+</details>
 
 ## Facebook product feed implementation:
 
@@ -91,7 +93,8 @@ $item
 echo $feed;
 ```
 
-Output:
+<details>
+	<summary>Output</summary>
 
 ```xml
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:g="http://base.google.com/ns/1.0" version="2.0">
@@ -127,3 +130,4 @@ Output:
 </channel>
 </rss>
 ```
+</details>
