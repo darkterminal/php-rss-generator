@@ -1,8 +1,8 @@
 <?php
 
-use Bhaktaraz\RSSGenerator\Item;
-use Bhaktaraz\RSSGenerator\Feed;
-use Bhaktaraz\RSSGenerator\Channel;
+use RSSGenerator\Item;
+use RSSGenerator\Feed;
+use RSSGenerator\Channel;
 
 require 'vendor/autoload.php';
 

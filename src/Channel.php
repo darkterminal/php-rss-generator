@@ -1,11 +1,11 @@
 <?php
 
-namespace Bhaktaraz\RSSGenerator;
+namespace RSSGenerator;
 
-use Bhaktaraz\RSSGenerator\FeedInterface;
-use Bhaktaraz\RSSGenerator\ItemInterface;
-use Bhaktaraz\RSSGenerator\SimpleXMLElement;
-use Bhaktaraz\RSSGenerator\ChannelInterface;
+use RSSGenerator\FeedInterface;
+use RSSGenerator\ItemInterface;
+use RSSGenerator\SimpleXMLElement;
+use RSSGenerator\ChannelInterface;
 
 class Channel implements ChannelInterface
 {
@@ -21,7 +21,7 @@ class Channel implements ChannelInterface
 
     /** @var string */
     protected $description;
-		
+
     /** @var object */
     protected $image;
 
@@ -96,14 +96,14 @@ class Channel implements ChannelInterface
 
         return $this;
     }
-		
+
     /**
      * Set channel image
-     * 
+     *
      * The url is the image URL.
      * The title is used as the alt attribute if the image is used in HTML.
      * The link should be the URL of the site.
-     * 
+     *
      * @param string $url
      * @param string $title
      * @param string $link
@@ -255,7 +255,7 @@ class Channel implements ChannelInterface
         if ($this->language !== null) {
             $xml->addChild('language', $this->language);
         }
-				
+
         if ($this->image !== null) {
             $image = $xml->addChild('image');
             $image->addChild('url', $this->image->url);

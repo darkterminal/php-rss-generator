@@ -1,6 +1,6 @@
-# \Bhaktaraz\RSSGenerator
+# \RSSGenerator
 
-`\Bhaktaraz\RSSGenerator` is RSS generator library for PHP 5.5 or later.
+`\RSSGenerator` is RSS generator library for PHP 5.5 or later.
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bhaktaraz/php-rss-generator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bhaktaraz/php-rss-generator/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/bhaktaraz/php-rss-generator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bhaktaraz/php-rss-generator/build-status/master)
 
@@ -92,8 +92,8 @@ $item
 	->title("elePHPant Small")
 	->description("elePHPant hand made in nepal.")
 	->url('https://geekyrepo.pasls.com/product/elephpant-small')
-	->availability('in stock') 
-	->condition('new') 
+	->availability('in stock')
+	->condition('new')
 	->googleProductCategory('Apparel & Accessories > Clothing > Underwear & Socks')
 	->imageLink('https://geekyrepo.pasls.com/u/591415cc603dc_elephant-blue-small.jpg')
 	->brand('GeekyRepo')

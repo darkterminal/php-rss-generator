@@ -1,8 +1,8 @@
 <?php
 
-namespace Bhaktaraz\RSSGenerator;
+namespace RSSGenerator;
 
-use Bhaktaraz\RSSGenerator\ChannelInterface;
+use RSSGenerator\ChannelInterface;
 
 interface FeedInterface
 {

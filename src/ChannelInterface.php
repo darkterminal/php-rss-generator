@@ -1,9 +1,9 @@
 <?php
 
-namespace Bhaktaraz\RSSGenerator;
+namespace RSSGenerator;
 
-use Bhaktaraz\RSSGenerator\FeedInterface;
-use Bhaktaraz\RSSGenerator\SimpleXMLElement;
+use RSSGenerator\FeedInterface;
+use RSSGenerator\SimpleXMLElement;
 
 interface ChannelInterface
 {
