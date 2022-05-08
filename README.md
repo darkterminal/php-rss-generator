@@ -1,12 +1,10 @@
-# \RSSGenerator
+# RSSGenerator
 
-`\RSSGenerator` is RSS generator library for PHP 5.5 or later.
+`RSSGenerator` is RSS generator library for PHP 5.5 or later.
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/darkterminal/php-rss-generator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/darkterminal/php-rss-generator/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/darkterminal/php-rss-generator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/darkterminal/php-rss-generator/build-status/master)
+![GitHub repo size](https://img.shields.io/github/repo-size/darkterminal/php-rss-generator?label=Repository%20Size&logo=github) ![GitHub all releases](https://img.shields.io/github/downloads/darkterminal/php-rss-generator/total?logo=github) ![GitHub issues](https://img.shields.io/github/issues/darkterminal/php-rss-generator?logo=github) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/darkterminal/php-rss-generator?logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/darkterminal/php-rss-generator?style=social)
+[![Packagist](https://img.shields.io/packagist/v/rssgen/php-rss-generator?logo=packagist&labelColor=white&logoCOlor=orange)](https://packagist.org/packages/rssgen/php-rss-generator/) [![Packagist Downloads](https://img.shields.io/packagist/dm/rssgen/php-rss-generator.svg?label=packagist%20downloads&logo=packagist&labelColor=white&logoCOlor=orange)](https://packagist.org/packages/rssgen/php-rss-generator) [![Open Source Software](https://img.shields.io/badge/open_source-🤍-3DA639.svg)](https://opensource.org/)
 
-[![Total Downloads](https://poser.pugx.org/darkterminal/php-rss-generator/downloads)](//packagist.org/packages/darkterminal/php-rss-generator)
-[![Monthly Downloads](https://poser.pugx.org/darkterminal/php-rss-generator/d/monthly)](//packagist.org/packages/darkterminal/php-rss-generator)
-[![Daily Downloads](https://poser.pugx.org/darkterminal/php-rss-generator/d/daily)](//packagist.org/packages/darkterminal/php-rss-generator)
 
 ## Installation
 
